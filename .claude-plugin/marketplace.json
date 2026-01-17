@@ -1,9 +1,13 @@
 {
-  "name": "synapse-marketplace",
-  "description": "Synapse SDK plugin development toolkit for Claude Code",
+  "owner": {
+    "name": "datamaker-kr",
+    "url": "https://github.com/datamaker-kr"
+  },
   "plugins": [
     {
-      "path": "."
+      "name": "synapse-sdk",
+      "description": "Synapse SDK plugin development toolkit for Claude Code",
+      "source": "."
     }
   ]
 }
