@@ -1,0 +1,10 @@
+{
+  "name": "synapse-plugin",
+  "version": "0.1.0",
+  "description": "Synapse SDK plugin development toolkit for Claude Code - create, test, debug, and publish Synapse plugins",
+  "author": {
+    "name": "Datamaker",
+    "email": "dev@datamaker.kr"
+  },
+  "keywords": ["synapse", "plugin", "sdk", "ml", "pipeline", "development"]
+}
