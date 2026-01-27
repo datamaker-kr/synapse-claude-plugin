@@ -55,7 +55,7 @@ temp/
 .env.*.local
 
 # Coding Agents
-./claude/settings.local.json
+.claude/settings.local.json
 
 # Spec Files
 specs/*
