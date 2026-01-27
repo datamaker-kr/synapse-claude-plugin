@@ -2,7 +2,7 @@
   "name": "synapse-marketplace",
   "owner": {
     "name": "datamaker-kr Organization",
-    "email": "dev@datamaker.kr"
+    "email": "developer@datamaker.io"
   },
   "metadata": {
     "description": "Official Claude Code plugin marketplace for Synapse Products development",
