@@ -17,7 +17,7 @@
   ],
   "skills": [
     "./skills/changelog-manager/SKILL.md",
-    "./skills/commit-message/SKILL.md",
+    "./skills/commit-with-message/SKILL.md",
     "./skills/docs-analyzer/SKILL.md",
     "./skills/docs-bootstrapper/SKILL.md",
     "./skills/mermaid-expert/SKILL.md",

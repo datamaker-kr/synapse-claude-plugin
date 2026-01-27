@@ -423,7 +423,7 @@ CHANGELOG.md 업데이트:
 
 ## 다른 스킬 및 에이전트와의 통합
 
-- **commit-message skill**: 커밋 메시지 규칙과 일관성 유지
+- **commit-with-message skill**: 커밋 메시지 규칙과 일관성 유지
 - **update-pr agent**: PR 설명에 changelog 참조 가능
 - **docs-manager agent**: 문서 업데이트 시 changelog도 함께 관리
 

@@ -426,7 +426,7 @@ planner:
 
 - **tdd-workflow**: 계획에 TDD 호환 테스트 단계 포함
 - **docs-manager**: 계획에 문서 업데이트 단계 포함
-- **commit-message**: 각 단계가 커밋이 될 수 있음
+- **commit-with-message**: 각 단계가 커밋이 될 수 있음
 - **update-pr**: 계획 실행 후 PR 생성
 
 ## 장점

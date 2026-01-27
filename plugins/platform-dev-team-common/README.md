@@ -453,7 +453,7 @@ git worktree remove ../platform-dev-team-plugin-feature-x
 - **docs-analyzer**: 코드 및 문서 갭 분석
 - **docs-bootstrapper**: 초기 문서 구조 생성
 - **mermaid-expert**: Mermaid 다이어그램 생성 (색상 규칙 준수)
-- **commit-message**: 커밋 메시지 규칙 적용
+- **commit-with-message**: 커밋 메시지 규칙 적용
 - **tdd-workflow**: TDD 방법론 가이드
 
 ### 디렉토리 구조
@@ -468,7 +468,7 @@ platform-dev-team-claude-plugin/
 │   ├── docs-analyzer/         # 문서 갭 분석
 │   ├── docs-bootstrapper/     # 문서 부트스트랩
 │   ├── mermaid-expert/        # 다이어그램 생성
-│   ├── commit-message/        # 커밋 메시지 규칙
+│   ├── commit-with-message/        # 커밋 메시지 규칙
 │   └── tdd-workflow/          # TDD 가이드
 └── commands/                  # Claude 커맨드
     ├── update-pr-title.md
@@ -512,7 +512,7 @@ platform-dev-team-claude-plugin/
 - **핵심 기능**: 요구사항 분석, 아키텍처 검토, 단계별 분해, 의존성 식별
 - **계획 프로세스**: 4단계 (요구사항 분석 → 아키텍처 검토 → 단계별 분해 → 구현 순서)
 - **출력**: 상세한 구현 계획 (파일 경로, 복잡도, 위험, 테스트 전략 포함)
-- **통합**: tdd-workflow, docs-manager, commit-message, update-pr와 연계
+- **통합**: tdd-workflow, docs-manager, commit-with-message, update-pr와 연계
 
 📖 [planner Agent 상세 가이드](agents/planner/README.md)
 
@@ -564,7 +564,7 @@ platform-dev-team-claude-plugin/
 
 📖 [mermaid-expert Skill 상세 가이드](skills/mermaid-expert/README.md)
 
-### 5. commit-message Skill
+### 5. commit-with-message Skill
 
 **한글/영어 커밋 메시지 작성 규칙 자동 적용**
 
@@ -572,7 +572,7 @@ platform-dev-team-claude-plugin/
 - **언어 지원**: 한글(기본), 영어 선택 가능
 - **기능**: 커밋 타입 자동 선택, 72자 제한, Co-Authored-By 추가
 
-📖 [commit-message Skill 상세 가이드](skills/commit-message/README.md)
+📖 [commit-with-message Skill 상세 가이드](skills/commit-with-message/README.md)
 
 ### 6. changelog-manager Skill
 
@@ -796,9 +796,9 @@ platform-dev-team-claude-plugin/
 │   ├── mermaid-expert/
 │   │   ├── SKILL.md          # Mermaid 다이어그램 생성 스킬
 │   │   └── README.md         # mermaid-expert 스킬 상세 가이드
-│   └── commit-message/
+│   └── commit-with-message/
 │       ├── SKILL.md          # 커밋 메시지 작성 스킬
-│       └── README.md         # commit-message 스킬 상세 가이드
+│       └── README.md         # commit-with-message 스킬 상세 가이드
 ├── CLAUDE.md                 # Claude 작업 가이드 (커밋 메시지 규칙 등)
 ├── specs/                    # 명세 문서 (gitignored)
 └── README.md                 # 이 파일

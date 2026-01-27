@@ -1,5 +1,5 @@
 ---
-name: commit-message
+name: commit-with-message
 description: 커밋 메시지 작성 가이드 (한글/영어). 커밋 생성 시 자동으로 활성화되어 규칙을 준수하도록 안내합니다.
 allowed-tools: Read, Bash(git:*)
 user-invocable: true

@@ -315,7 +315,7 @@ The plan should be structured as follows:
 
 - **tdd-workflow**: Plans should include testing steps compatible with TDD
 - **docs-manager**: Plans should include documentation updates
-- **commit-message**: Each step can become a commit
+- **commit-with-message**: Each step can become a commit
 
 ## Model Specification
 

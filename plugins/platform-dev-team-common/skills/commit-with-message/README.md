@@ -1,4 +1,4 @@
-# commit-message Skill
+# commit-with-message Skill
 
 커밋 메시지 작성 규칙을 준수하도록 가이드하는 스킬입니다. 한글 또는 영어로 작성 가능합니다.
 

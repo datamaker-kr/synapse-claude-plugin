@@ -107,7 +107,7 @@ Synapse SDK 플러그인 개발을 위한 Claude Code 도구입니다.
 | **docs-analyzer** | 코드 변경 분석 및 문서 갭 식별 |
 | **docs-bootstrapper** | 프로젝트 문서 구조 초기화 |
 | **mermaid-expert** | Light/Dark 모드 호환 Mermaid 다이어그램 생성 |
-| **commit-message** | 한국어/영어 이중 언어 커밋 메시지 규칙 |
+| **commit-with-message** | 한국어/영어 이중 언어 커밋 메시지 규칙 |
 | **changelog-manager** | Keep a Changelog 형식의 변경 로그 관리 |
 
 ### 에이전트 (3개)

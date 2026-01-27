@@ -207,4 +207,4 @@ PR #178 제목 업데이트 완료!
 - [update-pr-title 명령어](../../commands/update-pr-title.md)
 - [update-pr-desc 명령어](../../commands/update-pr-desc.md)
 - [mermaid-expert 스킬](../mermaid-expert/README.md)
-- [commit-message 스킬](../commit-message/README.md)
+- [commit-with-message 스킬](../commit-with-message/README.md)
