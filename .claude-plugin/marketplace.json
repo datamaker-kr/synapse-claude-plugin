@@ -1,17 +1,44 @@
 {
   "name": "synapse-marketplace",
   "owner": {
-    "name": "datamaker-kr",
-    "url": "https://github.com/datamaker-kr"
+    "name": "datamaker-kr Organization",
+    "email": "dev@datamaker.kr"
+  },
+  "metadata": {
+    "description": "Official Claude Code plugin marketplace for Synapse Products development",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "synapse-sdk",
-      "description": "Synapse SDK plugin development toolkit for Claude Code",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/datamaker-kr/synapse-claude-plugin.git"
-      }
+      "name": "synapse-plugin-helper",
+      "source": "./plugins/synapse-plugin-helper",
+      "description": "Synapse SDK plugin development toolkit - create, test, debug, and publish Synapse plugins",
+      "version": "1.0.0",
+      "author": {
+        "name": "Datamaker"
+      },
+      "homepage": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+      "repository": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+      "license": "MIT",
+      "keywords": ["synapse", "plugin", "sdk", "ml", "pipeline"],
+      "category": "development",
+      "tags": ["synapse-sdk", "ml-pipeline", "plugin-development"]
+    },
+    {
+      "name": "platform-dev-team-common",
+      "source": "./plugins/platform-dev-team-common",
+      "description": "Common development team plugin - TDD guidance, documentation management, and PR automation with Mermaid charts",
+      "version": "1.0.0",
+      "author": {
+        "name": "datamaker-kr Organization"
+      },
+      "homepage": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+      "repository": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+      "license": "SEE LICENSE IN LICENSE",
+      "keywords": ["tdd", "documentation", "pr-management", "mermaid"],
+      "category": "development",
+      "tags": ["backend", "django", "drf", "tdd", "documentation", "mermaid", "pr-automation"]
     }
   ]
 }
