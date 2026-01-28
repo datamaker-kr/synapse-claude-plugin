@@ -1,0 +1,31 @@
+{
+  "name": "platform-dev-team-common",
+  "version": "1.0.0",
+  "description": "Common Claude plugin for development teams - TDD guidance, documentation management, and PR management with Mermaid charts",
+  "author": {
+    "name": "datamaker-kr Organization"
+  },
+  "homepage": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+  "repository": "https://github.com/datamaker-kr/synapse-claude-marketplace.git",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["tdd", "documentation", "pr-management", "mermaid", "dev-team", "django", "backend"],
+  "commands": [
+    "./commands/update-pr-title.md",
+    "./commands/update-pr-desc.md",
+    "./commands/update-docs.md",
+    "./commands/add-changelog.md"
+  ],
+  "skills": [
+    "./skills/changelog-manager/SKILL.md",
+    "./skills/commit-with-message/SKILL.md",
+    "./skills/docs-analyzer/SKILL.md",
+    "./skills/docs-bootstrapper/SKILL.md",
+    "./skills/mermaid-expert/SKILL.md",
+    "./skills/tdd-workflow/SKILL.md"
+  ],
+  "agents": [
+    "./agents/docs-manager/SKILL.md",
+    "./agents/planner/SKILL.md",
+    "./agents/update-pr/SKILL.md"
+  ]
+}

@@ -1,10 +1,27 @@
 {
-  "name": "synapse-plugin",
-  "version": "0.1.0",
-  "description": "Synapse SDK plugin development toolkit for Claude Code - create, test, debug, and publish Synapse plugins",
+  "name": "synapse-marketplace",
+  "displayName": "Synapse Plugin Marketplace",
+  "version": "1.0.0",
+  "description": "Official Claude Code plugin marketplace for Synapse Products development",
   "author": {
-    "name": "Datamaker",
-    "email": "dev@datamaker.kr"
+    "name": "datamaker-kr Organization",
+    "email": "developer@datamaker.io"
   },
-  "keywords": ["synapse", "plugin", "sdk", "ml", "pipeline", "development"]
+  "homepage": "https://github.com/datamaker-kr/synapse-claude-marketplace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datamaker-kr/synapse-claude-marketplace.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "marketplace",
+    "plugin-registry",
+    "synapse",
+    "datamaker",
+    "synapse-backend",
+    "synapse-annotator",
+    "synapse-workspace",
+    "synapse-sdk",
+    "synapse-agent"
+  ]
 }
